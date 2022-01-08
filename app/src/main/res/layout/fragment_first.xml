@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ui.fragments.FirstFragment">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="44sp"
+        android:text="2131"
+        />
+
+    <Button
+        android:id="@+id/increment_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="26dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="70dp"
+        />
+
+    <Button
+        android:id="@+id/decrement_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="100dp"
+        android:layout_toEndOf="@+id/increment_btn"
+        android:text="–"
+        android:textSize="26sp" />
+
+
+</RelativeLayout>
